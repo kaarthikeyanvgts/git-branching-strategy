@@ -1,2 +1,2 @@
 # git-branching-strategy
-v0
+v1
