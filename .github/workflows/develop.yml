@@ -7,7 +7,7 @@ on:
 
 jobs:
   Code-Copy:
-    runs-on: kaarthik-runner
+    runs-on: self-hosted
 
     steps:
       - name: Clone repository
