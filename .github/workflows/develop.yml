@@ -1,0 +1,16 @@
+name: Git Branching Strategy
+
+on:
+  push:
+    branches: develop
+  workflow_dispatch:
+
+jobs:
+  Code-Copy:
+    runs-on: kaarthik-runner
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          path: 'develop'
