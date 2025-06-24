@@ -1,8 +1,9 @@
 name: Git Branching Strategy
 
 on:
-  push:
+  pull_request:
     branches: uat
+    types: [closed]
   workflow_dispatch:
 
 jobs:
