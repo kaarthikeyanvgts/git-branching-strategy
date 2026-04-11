@@ -1,0 +1,9 @@
+name: uat
+
+environment:
+  name: uat
+  url: https://uat.example.com
+
+variables:
+  ENVIRONMENT: uat
+  BRANCH: uat
